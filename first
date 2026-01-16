@@ -1,0 +1,16 @@
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int x=40;
+    cout<<x<<endl;
+     cout<<sizeof(x)<<endl;
+
+
+    int name;
+    cout<<name<<endl;
+    //cout << "hello" <<endl <<"yugant" <<'\n';  cout << "hello" <<endl <<"yugant" <<'\n';
+    //cout<<"hello world" <<endl;
+    //cout<<"hello00 world";
+}
