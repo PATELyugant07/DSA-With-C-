@@ -1,0 +1,35 @@
+
+#include<iostream>
+using namespace std;
+
+int main(){
+  /*int cash=10;
+    if(cash >=14)
+    {
+        cout << "purchase maggi";
+        
+    }else {
+            cout << "no money";
+        }*/ 
+
+
+        int sides;
+        cout << "enter any number" <<endl;
+        cin >> sides;
+        cout << "side:" <<sides <<endl;
+
+        if( sides == 3){
+            cout << "triangle";
+            }
+        else if(sides == 4){
+            cout << "rectengel";
+        }
+        else if(sides == 5){
+            cout << "pentegen";
+        }
+        else{
+            cout <<"no sape available";
+                }
+    
+        
+}
