@@ -1,0 +1,10 @@
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int marks;
+    cout<<"enter any number:" <<endl;
+    cin>> marks;
+    cout << "prints marks:" <<marks <<endl;
+}
