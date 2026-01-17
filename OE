@@ -1,0 +1,17 @@
+
+#include<iostream>
+using namespace std;
+
+int main(){
+        int num;
+        cout << "enter any number" <<endl;
+        cin >>  num;
+        cout << "num:" << num<<endl;
+
+        if( num%2 == 0 ){
+            cout << "even";
+        }
+        else if( num%2 == 1 ){
+            cout <<"odd";
+                } 
+}
