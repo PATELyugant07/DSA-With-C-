@@ -1,0 +1,22 @@
+
+#include<iostream>
+using namespace std;
+
+int main(){
+        int num;
+        cout << "enter any number" <<endl;
+        cin >>  num;
+        cout << "side:" << num<<endl;
+
+        if( num > 0 ){
+            cout << "positive";
+        }
+        else if( num < 0 ){
+            cout <<"negitive";
+                }
+                else {
+                    cout << "number is zero";
+                }
+    
+        
+}
