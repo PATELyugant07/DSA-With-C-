@@ -5,7 +5,7 @@ int main() {
     int a, b, c;
     cin >> a >> b >> c;
 
-    ifde(a >= b && a >= c)
+    if(a >= b && a >= c)
         cout << a << " is largest";
     else if(b >= a && b >= c)
         cout << b << " is largest";
